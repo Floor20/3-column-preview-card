@@ -1,1 +1,60 @@
-/* empty */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/*------------------------------------*/
+/* CARD STYLES */
+/*------------------------------------*/
+
+.full-card {
+  display: flex;
+}
+
+.column-sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.column-suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.column-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+/*--------------------------------------*/
+/* HEADINGS */
+/*--------------------------------------*/
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 23px;
+}
+
+p {
+  font-weight: 400;
+  padding: 23px;
+  line-height: 1.8;
+}
+
+button {
+  position: relative;
+  left: 23px;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
