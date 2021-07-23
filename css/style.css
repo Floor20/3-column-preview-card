@@ -19,6 +19,15 @@ body {
 
 .full-card {
   display: flex;
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .column-sedan {
@@ -34,27 +43,62 @@ body {
 }
 
 /*--------------------------------------*/
-/* HEADINGS */
+/* CONTENT */
 /*--------------------------------------*/
+
+img {
+  padding: 40px 0 0 40px;
+}
 
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   text-align: left;
-  padding: 23px;
+  padding: 25px 0 30px 40px;
 }
 
 p {
   font-weight: 400;
-  padding: 23px;
+  padding: 0 80px 0 40px;
   line-height: 1.8;
+  margin-bottom: 80px;
 }
+
+.column-suv p {
+}
+
+/*--------------------------------------*/
+/* BUTTONS */
+/*--------------------------------------*/
 
 button {
   position: relative;
-  left: 23px;
-  padding: 10px;
+  left: 40px;
+  padding: 15px 40px;
   margin-bottom: 40px;
-  border-radius: 20px;
+  border-radius: 25px;
+  border: none;
+}
+
+.btn-sedan {
+  color: hsl(31, 77%, 52%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.btn-suv {
+  color: hsl(184, 100%, 22%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/*--------------------------------------*/
+/* QUERIES */
+/*--------------------------------------*/
+
+@media only screen and (max-width: 955px) {
 }
