@@ -79,6 +79,10 @@ button {
   border: none;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .btn-sedan {
   color: hsl(31, 77%, 52%);
   font-family: "Lexend Deca", sans-serif;
