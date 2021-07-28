@@ -1,48 +1,48 @@
-@media only screen and (max-width: 955px) {
+@media only screen and (max-width: 1005px) {
   .column-sedan p {
     padding: 0 60px 0 40px;
   }
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 987px) {
   .column-luxury p {
     padding: 0 60px 0 40px;
   }
 }
 
-@media only screen and (max-width: 902px) {
+@media only screen and (max-width: 950px) {
   .column-suv p {
     padding: 0 60px 0 40px;
   }
 }
 
-@media only screen and (max-width: 893px) {
+@media only screen and (max-width: 940px) {
   .column-sedan p {
     padding: 0 40px 0 40px;
   }
 }
 
-@media only screen and (max-width: 891px) {
-  .column-sedan p {
-    padding: 0 50px 0 40px;
-  }
-}
-
-@media only screen and (max-width: 881px) {
+@media only screen and (max-width: 925px) {
   .column-luxury p {
     padding: 0 50px 0 40px;
   }
 }
 
-@media only screen and (max-width: 866px) {
-  .column-sedan p {
-    padding: 0 30px 0 40px;
-  }
-}
-
-@media only screen and (max-width: 851px) {
+@media only screen and (max-width: 900px) {
   .column-luxury p {
     padding: 0 30px 0 40px;
+  }
+
+  @media only screen and (max-width: 891px) {
+    .column-sedan p {
+      padding: 0 30px 0 40px;
+    }
+  }
+
+  @media only screen and (max-width: 842px) {
+    .column-sedan p {
+      padding: 0 20px 0 40px;
+    }
   }
 
   .column-suv p {
@@ -50,31 +50,36 @@
   }
 }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 831px) {
+  .column-luxury p {
+    padding: 0 20px 0 40px;
+  }
+
+@media only screen and (max-width: 812px) {
   .column-sedan p {
     padding: 0 15px 0 40px;
   }
 }
 
-@media only screen and (max-width: 788px) {
+@media only screen and (max-width: 805px) {
   .column-luxury p {
     padding: 0 15px 0 40px;
   }
 }
 
-@media only screen and (max-width: 757px) {
+@media only screen and (max-width: 800px) {
   .column-sedan p {
     padding: 0 10px 0 40px;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 790px) {
   .column-luxury p {
     padding: 0 10px 0 40px;
   }
 }
 
-@media only screen and (max-width: 743px) {
+@media only screen and (max-width: 785px) {
   .column-sedan p {
     padding: 0 5px 0 40px;
   }
@@ -84,7 +89,7 @@
   }
 }
 
-@media only screen and (max-width: 735px) {
+@media only screen and (max-width: 768px) {
   .column-sedan p {
     padding: 0 0 0 40px;
   }
@@ -95,6 +100,24 @@
 
   .column-luxury p {
     padding: 0 0 0 40px;
+  }
+}
+
+@media only screen and (max-width: 748px) {
+  .column-sedan p {
+    margin-bottom: 53px;
+  }
+}
+
+@media only screen and (max-width: 742px) {
+  .column-luxury p {
+    margin-bottom: 53px;
+  }
+}
+
+@media only screen and (max-width: 712px) {
+  .column-suv p {
+    margin-bottom: 53px;
   }
 }
 
