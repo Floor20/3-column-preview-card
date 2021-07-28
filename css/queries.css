@@ -1,0 +1,129 @@
+@media only screen and (max-width: 955px) {
+  .column-sedan p {
+    padding: 0 60px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .column-luxury p {
+    padding: 0 60px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 902px) {
+  .column-suv p {
+    padding: 0 60px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 893px) {
+  .column-sedan p {
+    padding: 0 40px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 891px) {
+  .column-sedan p {
+    padding: 0 50px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 881px) {
+  .column-luxury p {
+    padding: 0 50px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 866px) {
+  .column-sedan p {
+    padding: 0 30px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 851px) {
+  .column-luxury p {
+    padding: 0 30px 0 40px;
+  }
+
+  .column-suv p {
+    padding: 0 20px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .column-sedan p {
+    padding: 0 15px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .column-luxury p {
+    padding: 0 15px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 757px) {
+  .column-sedan p {
+    padding: 0 10px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .column-luxury p {
+    padding: 0 10px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 743px) {
+  .column-sedan p {
+    padding: 0 5px 0 40px;
+  }
+
+  .column-luxury p {
+    padding: 0 5px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .column-sedan p {
+    padding: 0 0 0 40px;
+  }
+
+  .column-suv p {
+    padding: 0 0 0 40px;
+  }
+
+  .column-luxury p {
+    padding: 0 0 0 40px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .full-card {
+    flex-direction: column;
+    min-height: 1260px;
+    width: 85%;
+    position: absolute;
+    top: 650px;
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+
+  .column-luxury {
+    border-radius: 0 0 8px 8px;
+  }
+
+  .column-sedan p {
+    padding: 0 80px 0 40px;
+  }
+
+  .column-suv p {
+    padding: 0 80px 0 40px;
+  }
+
+  .column-luxury p {
+    padding: 0 80px 0 40px;
+  }
+}
