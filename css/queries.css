@@ -127,10 +127,10 @@
 @media only screen and (max-width: 710px) {
   .full-card {
     flex-direction: column;
-    min-height: 1260px;
+    min-height: 1300px;
     width: 85%;
     position: absolute;
-    top: 650px;
+    top: 700px;
   }
 
   p {
